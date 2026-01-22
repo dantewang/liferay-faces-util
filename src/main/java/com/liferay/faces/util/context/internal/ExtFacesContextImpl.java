@@ -1053,11 +1053,6 @@ public class ExtFacesContextImpl extends ExtFacesContext implements Serializable
 		FacesContext.getCurrentInstance().setExceptionHandler(exceptionHandler);
 	}
 
-	@Override
-	public Lifecycle getLifecycle() {
-		return FacesContext.getCurrentInstance().getLifecycle();
-	}
-
 	/**
 	 * @since JSF 2.0
 	 */
