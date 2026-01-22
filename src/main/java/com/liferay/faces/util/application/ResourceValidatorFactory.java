@@ -37,7 +37,7 @@ public abstract class ResourceValidatorFactory implements FacesWrapper<ResourceV
 	 *             {@link ResourceValidatorFactory} found by the {@link FactoryExtensionFinder}. ResourceValidator is a
 	 *             stateless, thread-safe singleton because it is designed to be used by a
 	 *             {@link jakarta.faces.application.ResourceHandler}, which is a <a href=
-	 *             "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/javax/faces/application/Application.html#getResourceHandler()">
+	 *             "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/jakarta/faces/application/Application.html#getResourceHandler()">
 	 *             stateless, thread-safe singleton</a>.
 	 *             </p>
 	 */
@@ -51,7 +51,7 @@ public abstract class ResourceValidatorFactory implements FacesWrapper<ResourceV
 	 * {@link ResourceValidatorFactory} found by the {@link FactoryExtensionFinder}. ResourceValidator is a stateless,
 	 * thread-safe singleton because it is designed to be used by a {@link jakarta.faces.application.ResourceHandler},
 	 * which is a <a href=
-	 * "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/javax/faces/application/Application.html#getResourceHandler()">
+	 * "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/jakarta/faces/application/Application.html#getResourceHandler()">
 	 * stateless, thread-safe singleton</a>.
 	 *
 	 * @param externalContext The external context associated with the current faces context. It is needed in order for
@@ -74,7 +74,7 @@ public abstract class ResourceValidatorFactory implements FacesWrapper<ResourceV
 	 * Returns a stateless, thread-safe singleton instance of {@link ResourceValidator}. ResourceValidator is stateless,
 	 * thread-safe singleton because it is designed to be used by a {@link jakarta.faces.application.ResourceHandler},
 	 * which is a <a href=
-	 * "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/javax/faces/application/Application.html#getResourceHandler()">
+	 * "https://javaserverfaces.java.net/nonav/docs/2.2/javadocs/jakarta/faces/application/Application.html#getResourceHandler()">
 	 * stateless, thread-safe singleton</a>.
 	 */
 	public abstract ResourceValidator getResourceValidator();
